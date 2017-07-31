@@ -5,6 +5,7 @@ before_install:
     - git config --global user.email $GITHUB_EMAIL
     - git config --global user.name $GITHUB_USERNAME
     - npm i hexo-cli -g
+    - npm install hexo-wordcount --save
     - git clone https://github.com/xuzhougeng/hexo-theme-next themes/$THEME_NAME
 script:
     - hexo config theme $THEME_NAME
