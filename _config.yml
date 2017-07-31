@@ -71,11 +71,16 @@ pagination_dir: page
 
 # Extensions
 ## Plugins: https://hexo.io/plugins/
-plugins: hexo-generate-feed
 ## Themes: https://hexo.io/themes/
 theme: next
 
-# Deployment
-## Docs: https://hexo.io/docs/deployment.html
-# deploy:
-#   type:
+sitemap:
+  path: sitemap.xml
+baidusitemap:
+  path: baidusitemap.xml
+
+search:
+  path: search.xml
+  field: post
+  format: html
+  limit: 10000
