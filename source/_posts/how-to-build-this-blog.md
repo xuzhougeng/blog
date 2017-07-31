@@ -6,6 +6,28 @@ tags:
 ---
 
 这个博客的搭建之路
+## 安装软件
+- git: https://git-scm.com/downloads
+- node.js: https://nodejs.org/en/
+- hexo
+
+```
+# git
+sudo apt-get install git
+# conda install git
+
+# node.js
+# use nvm to install node.js
+wget -qO- https://raw.github.com/creationix/nvm/master/install.sh | sh
+nvm install stable
+## add taobao mirrors to speed downloading
+alias cnpm="npm --registry=https://registry.npm.taobao.org \
+--cache=$HOME/.npm/.cache/cnpm \
+--disturl=https://npm.taobao.org/dist \
+--userconfig=$HOME/.cnpmrc"
+# hexo
+npm install -g hexo-cli
+```
 
 <!--more-->
 
