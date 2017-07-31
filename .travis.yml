@@ -11,8 +11,6 @@ before_install:
     - git clone $THEME_URI themes/$THEME_NAME
 script:
     - hexo config theme $THEME_NAME
-    - hexo new page tags
-    - hexo new page categories
     - hexo generate
 after_success:
     - cd public
