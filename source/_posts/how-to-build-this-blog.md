@@ -1,9 +1,13 @@
 ---
 title: 这个博客是如何搭建的
 date: 2017/7/30
-tags: Hexo
+tags:
+    - Hexo
 ---
 
+这个博客的搭建之路
+
+<!--more-->
 
 ## 安装软件
 - git: https://git-scm.com/downloads
