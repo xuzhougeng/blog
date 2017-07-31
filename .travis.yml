@@ -8,6 +8,7 @@ before_install:
     - npm install hexo-wordcount --save
     - npm install hexo-generator-feed
     - npm install hexo-generator-sitemap
+    - npm install hexo-generator-searchdb --save
     - git clone $THEME_URI themes/$THEME_NAME
 script:
     - hexo config theme $THEME_NAME
