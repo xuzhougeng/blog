@@ -6,6 +6,8 @@ before_install:
     - git config --global user.name $GITHUB_USERNAME
     - npm i hexo-cli -g
     - npm install hexo-wordcount --save
+    - npm install hexo-generator-feed
+    - npm install hexo-generator-sitemap
     - git clone $THEME_URI themes/$THEME_NAME
 script:
     - hexo config theme $THEME_NAME
