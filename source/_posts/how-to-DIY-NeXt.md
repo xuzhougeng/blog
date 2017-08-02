@@ -1,6 +1,8 @@
 ---
 title: 如何配置NexT主题
 date: 2017/7/31
+updated: 2017/8/2
+comments: true
 categories:
 - 'Hexo'
 tags:
