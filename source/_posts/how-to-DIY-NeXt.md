@@ -36,6 +36,7 @@ leancloud_visitors:
 
 # 在source/images/ 下替换成合适的图片
 reward_comment: "觉得有用的话赞助一点吧~"
+# 或者放图床地址
 wechatpay: /images/wechatpay.png
 alipay: /images/alipay.jpg
 ```
