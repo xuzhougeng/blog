@@ -12,6 +12,7 @@ tags:
 折腾了半天，终于标签和分类能用了。
 <!--more-->
 
+嫌麻烦可以fork一份 https://github.com/aak1247/hexo-theme-one
 
 # 生成标签和分类
 利用travis-ci自动部署时，需要自己在blog仓库中添加标签和分类文件。
