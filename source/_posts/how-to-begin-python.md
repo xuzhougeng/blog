@@ -17,6 +17,7 @@ comments: true
 
 ## 这篇文章不会谈及
 - XXX报错了，我该怎么办。初学者遇到的问题基本上都能用搜索引擎搞定，如果百度搞不定，请用英文关键字去谷歌。如果你问我的问题，是可以搜索引擎找到的，我会慎重考虑**拉黑**你的。
+- 基于上述这一句话，其实这篇文章也没有必要写。因为你完成可以搜索到许多入门资源，但是考虑大家未必能够甄别，这里强势推荐[编程小白的第一本 Python 入门书](http://www.ituring.com.cn/book/1863) 
 
 
 ## 什么是Python
@@ -126,9 +127,9 @@ hello world
 - 我希望你读完这篇文章之后，不要纠结选什么版本，下载最新的anaconda装上去就好了（目前是3.6），不要纠结用什么编辑器，notepad++或者sublime Text就行。
 
 如果你打算继续学Python，希望我推荐什么教材的话，我推荐初学者用
-- 笨方法学Python
-- a byte of Python
+- [编程小白的第一本 Python 入门书](http://www.ituring.com.cn/book/1863) 
+- [笨方法学Python](https://learnpythonthehardway.org/)
+- [a byte of Python](https://python.swaroopch.com/)
 
-进阶的话，可以去看流畅的python，python核心编程等。
 
-如果你要问为什么要看这些书，而不是另一些书，我的答案就是我乐意。你先安安静静把这本书看完，再来和我纠结到底看什么。
+随便选一本看，但是第一本是更加面向初学者，画风也很好看，也是我小白阶段看的书。进阶的话，可以去看流畅的python，python核心编程，选择很多。
