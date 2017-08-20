@@ -61,4 +61,8 @@ tags:
 - server.R 则是服务器端，负责input内容如何加工,  赋值给output对应的变量
 - 运行shiny应用有三种方式，命令行的`R -e "shiny::runApp('~/shinyapp')"`, R中的`shiny::runApp('~/shinyapp')`, 或者将app部署到shinyapp.io, `rsconnect::deployApp() `
 
-由于有一定的前端（以前搞过Python的django和flask）和后端经验（R基础不错），所以学起来不太费劲，也让我感受到R的强大之处。
+由于有一定的前端（以前搞过Python的django和flask）和后端经验（R基础不错），所以学起来不太费劲。并且强大shiny，也让我感受到R的强大之处。
+
+## 展望
+- 不断练习shiny可视化
+- BSA分析改结束了
